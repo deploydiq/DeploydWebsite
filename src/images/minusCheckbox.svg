@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>4F28AE03-4A50-4E6E-86D9-198D2D6F8C26</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.003922 0 0 0 0 0.023529 0 0 0 0 0.137255 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="HFW-0.4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Sign-In" transform="translate(-428.000000, -380.000000)">
+            <g id="Modifed-list-group" transform="translate(412.000000, 320.000000)">
+                <g id="Group" transform="translate(16.000000, 60.000000)">
+                    <g id="icon/checkbox-indeterminate">
+                        <g>
+                            <rect id="Checkbox-filled" fill="#FFFFFF" x="0" y="0" width="24" height="24" rx="3"></rect>
+                            <g filter="url(#filter-1)" id="icon/dash">
+                                <g transform="translate(6.000000, 12.000000)">
+                                    <rect fill="#010623" x="0" y="0" width="12" height="1.5"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

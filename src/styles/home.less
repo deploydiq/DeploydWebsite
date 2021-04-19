@@ -1,0 +1,210 @@
+@import "./default.less";
+@import "./custom.less";
+
+.btn {
+  transition: all 0.3s @ease-out;
+}
+
+.page-wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.separator {
+  margin-bottom: 65px;
+  display: inline-block;
+  width: 140px;
+  height: 5px;
+  background: #1890ff;
+  border-radius: 2.5px;
+}
+
+.page {
+  padding: 80px 100px;
+
+  h2,
+  h4,
+  h5,
+  span,
+  p,
+  a,
+  .feature,
+  .card-wrapper,
+  .main-info,
+  .detail {
+    will-change: transform;
+  }
+
+  .main-info {
+    line-height: 20px;
+  }
+}
+
+.banner {
+  // background: #F0F5F9;
+  padding: 0 8vw;
+  height: 75vh;
+
+  &-wrapper {
+    text-align: left;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+  }
+
+  > div {
+    display: flex;
+    align-items: center;
+  }
+
+  &-img-wrapper {
+    position: absolute;
+    right: 0;
+    width: 100%;
+    height: auto;
+  }
+
+  &-text-wrapper {
+    width: 90%;
+    h1 {
+      font-size: 6vh;
+    }
+
+    p {
+      font-size: 16px;
+      margin: 50px 0 60px;
+      font-weight: 300;
+    }
+
+    a {
+      display: inline-block;
+
+      .ant-btn {
+        margin: 20px 0;
+
+        &:hover {
+          // box-shadow: 0 4px 12px rgba(24, 144, 255, 0.4);
+          // transform: translateY(-4px);
+        }
+      }
+    }
+  }
+}
+
+.page2 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 6vh 8vw 12vh 8vw;
+  > div {
+    display: flex;
+    align-items: center;
+  }
+  &-img-wrapper {
+    float: left;
+    // width: 100%;
+    height: 315px;
+    box-shadow: 0 2px 2px rgba(84, 48, 132, 0.06);
+  }
+
+  &-text-wrapper {
+    text-align: left;
+    p {
+      font-size: 16px;
+      margin: 50px 0 60px;
+      font-weight: 300;
+    }
+
+    a {
+      display: inline-block;
+
+      .ant-btn {
+        margin: 20px 0;
+
+        &:hover {
+          // box-shadow: 0 4px 12px rgba(24, 144, 255, 0.4);
+          // transform: translateY(-4px);
+        }
+      }
+    }
+  }
+}
+
+.page3 {
+  background: url(../images/hexagon-bg.svg);
+  padding: 4vh 8vw;
+
+  &-card {
+    position: relative;
+    color: #868e96;
+    display: inline-block;
+    box-shadow: 0 2px 2px rgba(84, 48, 132, 0.06);
+    margin: 20px;
+    flex-direction: column;
+    word-wrap: break-word;
+    background: #fff;
+    text-align: center;
+    border-radius: 4px;
+    height: auto;
+    .card-img-top {
+      margin: 25px 0;
+      height: 12vh;
+    }
+
+    &-card-content {
+      padding: 69px 10% 96px;
+    }
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.page4 {
+  min-height: 715px;
+  padding: 130px 0;
+  background: #f8fafe;
+
+  .slick-slide {
+    height: 455px;
+
+    .user {
+      width: 98px;
+      height: 98px;
+      border-radius: 100%;
+      margin: auto;
+    }
+
+    .comment {
+      line-height: 48px;
+      font-size: 20px;
+      width: 100%;
+      max-width: 680px;
+      margin: 41px auto 47px;
+      position: relative;
+      color: #545454;
+      font-weight: 300;
+
+      > img {
+        position: absolute;
+        left: -40px;
+        top: -15px;
+      }
+    }
+
+    > h4 {
+      font-size: 30px;
+      line-height: 38px;
+      font-weight: normal;
+    }
+
+    > p {
+      margin-top: 16px;
+      font-size: 14px;
+      color: #888888;
+      font-weight: 300;
+    }
+  }
+
+}
